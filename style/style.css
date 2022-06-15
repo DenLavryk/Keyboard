@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+#input {
+    margin: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 450px;
+    height: 30px;
+}
+
+.container {
+    width: 720px;
+    height: 330px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+    width: 100%;
+    height: calc(100%/6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row1 {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.key {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 9px #999;
+    background-color: rgb(201 205 255);
+    color: rgb(12, 12, 12);
+    font-size: 10px;
+}
+
+.f-key {
+    width: 35px;
+    height: 17px !important;
+}
+
+.arrows {
+    width: 115px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-part,
+.bottom-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#topArrow,
+#leftArrow,
+#rightArrow,
+#bottomArrow {
+    height: 17px;
+    margin: 2px;
+
+}
+
+#backspace {
+    width: 55px;
+}
+
+#tab {
+    width: 45px;
+}
+
+#caps {
+    width: 53px;
+}
+
+#lshift,
+#rshift {
+    width: 65px;
+}
+
+#enter {
+    width: 58px;
+}
+
+.row6 .key {
+    width: 40px;
+}
+
+.space {
+    width: 185px !important;
+}
+
+.capsCircle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: -12px;
+    right: -3px;
+    background-color: gray;
+}
